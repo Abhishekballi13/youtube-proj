@@ -1,7 +1,7 @@
 {
     "headers": [
       {
-        "source": "/api/(.*)",
+        "source": "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=",
         "headers": [
           { "key": "Access-Control-Allow-Credentials", "value": "true" },
           { "key": "Access-Control-Allow-Origin", "value": "*" },
